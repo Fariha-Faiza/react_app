@@ -25,7 +25,7 @@ export default function Topbar() {
         <img 
         className="topImg"
      
-       src={process.env.PUBLIC_URL + 'images/11.jpg'} alt="logo" >
+       src={process.env.PUBLIC_URL + 'images/dp.jpg'} alt="logo" >
         </img>
         <i className=" topSearchIcon fa-solid fa-magnifying-glass"></i>
       </div>

@@ -6,7 +6,7 @@ export default function Sidebar() {
       <div className="sidebarItem">
           <span className="sidebarTitle">About me </span>
           <img
-          src={process.env.PUBLIC_URL + 'images/russell.jpg'}
+          src={process.env.PUBLIC_URL + 'images/singlepost.jpg'}
           alt=""
         />
            <p>Lorem Ipsum is simply dum text of the printing 
