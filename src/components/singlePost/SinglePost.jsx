@@ -5,7 +5,7 @@ export default function SinglePost() {
   return (
     <div className="singlePost">
       <div className="singlePostWrapper">
-      <img src={process.env.PUBLIC_URL + 'images/R.jpg'} 
+      <img src={process.env.PUBLIC_URL + 'images/66.jpeg'} 
       alt="" className="singlePostImg" />
 <h1 className="singlePostTitle">Lorem ipsum dolor sit amet
 <div className="singlePostEdit">
