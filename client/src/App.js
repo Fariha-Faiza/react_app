@@ -6,17 +6,18 @@ import Register from "./pages/register/Register";
 import Settings from "./pages/settings/Settings";
  import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
-import React from "react";
+import React, { useContext } from "react";
 import {  Route, } from "react-router-dom";
 import {
   BrowserRouter as Router,
   Routes 
 } from "react-router-dom";
+import { Context } from "./context/Context";
 //import Posts from "./components/posts/Posts";
 
 
 function App() {
-  const user = false;
+  const{ user} = useContext(Context)
   return (
     <Router>
 
