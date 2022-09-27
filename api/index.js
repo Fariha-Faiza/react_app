@@ -48,3 +48,7 @@ app.use("/api/categories", categoryRoute);
 app.listen("5000", () => {
   console.log("Backend is running.");
 });
+process.on('uncaughtException', function (err) {
+  console.error(err);
+  console.log("Node NOT Exiting...");
+});
